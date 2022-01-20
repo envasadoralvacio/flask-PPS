@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body{
+    font-family: 'Lora', serif;
+    background: #257356;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    color: #05F29B;
+    padding: 30px;
+}
+a{
+    color:#FFF;
+    text-decoration: none;
+    border:solid 2px #05F29B;
+    padding: 5px 7px;
+}
+a:hover{
+    color:#05F29B;
+    transition: all ease 0.5ms;
+}
+table{
+    text-align: left;
+    margin-top: 20px;
+}
+td, th{
+    min-width: 100px;
+    min-height: 50px;
+    padding: 5px;
+}
